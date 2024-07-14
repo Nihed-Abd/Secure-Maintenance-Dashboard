@@ -41,8 +41,8 @@ foreach ($posts as $post) {
         $message = 'Entretient is due for post: ' . $post['nom'];
 
         // Send email
-        $apiKey = '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'; 
-        $senderEmail = 'nihedabdworks@gmail.com'; 
+        $apiKey = 'Your API key'; 
+        $senderEmail = 'your mail'; 
         $senderName = 'SagemCom';
 
         $data = [
