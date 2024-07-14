@@ -18,8 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $passwordResetController->createResetToken($email, $resetCode, $expiryTimestamp);
 
         // Send email with reset code using Sendinblue
-        $apiKey = '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'; // Replace with your Sendinblue API key
-        $senderEmail = 'nihedabdworks@gmail.com'; // Replace with your sender email
+        $apiKey = 'your API KEY'; // Replace with your Sendinblue API key
+        $senderEmail = 'Your Adresse mail'; // Replace with your sender email
         $senderName = 'SagemCom';
 
         $data = [
